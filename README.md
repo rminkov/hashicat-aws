@@ -9,6 +9,7 @@ Includes "Meow World" website.
 
 If you want to use Terraform CLoud as a remote backend add this file: remote_backend.tf
 
+```
 terraform {
   backend "remote" {
     hostname = "app.terraform.io"
@@ -18,5 +19,6 @@ terraform {
     }
   }
 }
+```
 
 ---------------
